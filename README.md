@@ -26,6 +26,8 @@ A tool for calculating osteoporosis fracture risk.
   - Groups need to be summarized according to DVO definitions:
     - Fall-risk-associated diseases
     - Glucocorticoids and rheumatoid arthritis (Assigned to Maxi for implementation/fix)
+  - correcting/specifying labels of items in the Risikogruppen
+  - 
 
 ---
 
