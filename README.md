@@ -1,10 +1,35 @@
 # osteoporosis-calculator
 Calculator for osteoporosis fracture risk.
 
-// to do :
-//   Appearance:
-//     Risikogruppen buttons solten mehr spaced voneinander sein, sowie beim öffnen der HTML unausgeklappt sein. 
-//     bisher braucht man zwei clicks, statt einem zum einklappen der Risikogruppen - bugfix nötig
-//     im Ergebnis sollten die Punkte der einzelnen Gruppen nicht mehr angezeigt werden (oder zumindest hinter einem button versteckt, (für  die debugging phase)
-//   functionality:
-//     gruppen müssen definitions gemäß zusammengefasst werden laut dvo -> sturzrisiko assozierte erkrankungen + glukocorticoide und rheumatoide arthritis (Maxi)
+### Osteoporosis Calculator
+A tool for calculating osteoporosis fracture risk.
+
+---
+
+#### To Do:
+
+##### Appearance:
+
+- **Risikogruppen Buttons:**
+  - Increase spacing between buttons.
+  - Should be collapsed by default upon HTML load.
+  
+- **Bugfix:**
+  - Currently requires two clicks instead of one to collapse Risikogruppen; requires fix.
+
+- **Ergebnis Section:**
+  - Points for individual groups should be hidden or optionally viewed (perhaps behind a button), especially during the debugging phase.
+  
+##### Functionality:
+
+- **Grouping Adjustments:**
+  - Groups need to be summarized according to DVO definitions:
+    - Fall-risk-associated diseases
+    - Glucocorticoids and rheumatoid arthritis (Assigned to Maxi for implementation/fix)
+
+---
+
+#### Note
+Please ensure that all group definitions and calculations align with the most recent and scientifically valid DVO guidelines.
+
+---
