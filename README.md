@@ -11,7 +11,7 @@ A tool for calculating osteoporosis fracture risk.
 ##### Appearance:
 
 - **Risikogruppen Buttons:**
-  - Increase spacing between buttons.
+  -DONE Increase spacing between buttons.
   - Should be collapsed by default upon HTML load.
   
 - **Bugfix:**
