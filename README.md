@@ -16,6 +16,7 @@ A tool for calculating osteoporosis fracture risk.
   
 - **Bugfix:**
   - Currently requires two clicks instead of one to collapse Risikogruppen; requires fix.
+  - When entering the age pressing "enter" reloads the page for some reason
 
 - **Ergebnis Section:**
   - Points for individual groups should be hidden or optionally viewed (perhaps behind a button), especially during the debugging phase.
