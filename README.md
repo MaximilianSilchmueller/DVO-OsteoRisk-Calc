@@ -8,6 +8,8 @@ A tool for calculating osteoporosis fracture risk.
 
 #### To Do:
 
+- Run tests & visualize results showing the program works
+
 ##### Appearance:
 
 - **Risikogruppen Buttons:**
@@ -28,7 +30,7 @@ A tool for calculating osteoporosis fracture risk.
     - Fall-risk-associated diseases
     - Glucocorticoids and rheumatoid arthritis (Assigned to Maxi for implementation/fix)
   - correcting/specifying labels of items in the Risikogruppen
-  - 
+  - Help / Info on small button or hover.
 
 ---
 
