@@ -34,12 +34,11 @@
             <option value="T -4.0">T -4.0</option>
         </select><br>
 
-        <input type="checkbox" data-points="1" data-group="1"> Option 1 (1pt, Gruppe 1) <br><br>
 
         <button type="button" onclick="toggleContainer('container1')">Wirbelfrakturen</button> <br>
         <div class="container" id="container1" data-group="1">
             <input type="checkbox" data-points="2.9" > Wirbelfraktur(en) im letzten Jahr<br>
-            <input type="checkbox" data-points="0.0" > ???? Wirbelfraktur(en) > 12 Monate Zeitabstand <br>
+            <input type="checkbox" data-points="0.0" > Wirbelfraktur(en) > 12 Monate Zeitabstand <br>
             <input type="checkbox" data-points="2.0" > 1 osteoporotischer Wirbelbruch<br>
             <input type="checkbox" data-points="2.9"  > 2 osteoporotische Wirbelbrüche<br>
             <input type="checkbox" data-points="5.0" > 3 osteoporotische Wirbelbrüche<br>
@@ -134,6 +133,7 @@
 
         <button type="button" onclick="update()">Risiko berechnen</button>
 
+        <!-- This is a comment 
         <p>Ergebnis Gruppe 1: <span id="resultSpan1">0</span> Punkte</p>
         <p>Ergebnis Gruppe 2: <span id="resultSpan2">0</span> Punkte</p>
         <p>Ergebnis Gruppe 3: <span id="resultSpan3">0</span> Punkte</p>
@@ -143,8 +143,9 @@
         <p>Ergebnis Gruppe 7: <span id="resultSpan7">0</span> Punkte</p>
         <p>Ergebnis Gruppe 8: <span id="resultSpan8">0</span> Punkte</p>
         <p>Ergebnis Gruppe 9: <span id="resultSpan9">0</span> Punkte</p> <br>
+        -->
         <p>Ergebnis Gesamt: <span id="resultSpanTotal">0</span> Punkte</p>
-        <p>Therapy Level: <span id="therapyLevel">0</span> </p>
+        <p>Therapieempfehlung Level: <span id="therapyLevel">0</span> </p>
 
     </form>
 
