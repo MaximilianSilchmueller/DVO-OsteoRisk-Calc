@@ -55,6 +55,7 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
     align-items: center; /* Align buttons in the middle */
+    justify-content: center;
 }
 
 button {
@@ -65,7 +66,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 10px; /* Add bottom margin */
-    width: 200px; /* Set a fixed width for the buttons */
+    width: 100%; /* Set a fixed width for the buttons */
 }
 
 /* Style the result paragraph */
@@ -89,4 +90,9 @@ table, th, td {
 th, td {
     padding: 8px;
     text-align: left;
+}
+
+
+#resultSpanTotal {
+font-weight: bold;
 }
