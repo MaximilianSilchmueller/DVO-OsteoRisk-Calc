@@ -14,6 +14,14 @@
         <label for="age">Alter:</label>
         <input type="number" id="age" required><br>
 
+        <script>
+            document.getElementById('age').addEventListener('keydown', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                }
+            });
+        </script>
+
         <label for="gender">Geschlecht:</label>
         <select id="gender" name="gender">
             <option value="male">männlich</option>
@@ -36,7 +44,7 @@
 
 
         <button type="button" onclick="toggleContainer('container1')">Wirbelfrakturen</button> <br>
-        <div class="container" id="container1" data-group="1">
+        <div class="container" id="container1" data-group="1" style="display: none;">
             <input type="checkbox" data-points="2.9" > Wirbelfraktur(en) im letzten Jahr<br>
             <input type="checkbox" data-points="0.0" > Wirbelfraktur(en) > 12 Monate Zeitabstand <br>
             <input type="checkbox" data-points="2.0" > 1 osteoporotischer Wirbelbruch<br>
@@ -48,7 +56,7 @@
         </div>
 
         <button type="button" onclick="toggleContainer('container2')">Hüftfraktur und andere Frakturen</button> <br>
-        <div class="container" id="container2" data-group="2">
+        <div class="container" id="container2" data-group="2" style="display: none;">
             <input type="checkbox" id="option1" data-points="4.2" > Hüftfraktur im letzten Jahr<br>
             <input type="checkbox" id="option2" data-points="2.5" > Hüftfraktur > 12 Monate Zeitabstand<br>
             <input type="checkbox" id="option3" data-points="1.7" > Humerusfraktur<br>
@@ -58,7 +66,7 @@
 
         <!-- ... Allgmeine Risikofaktoren ... -->
         <button type="button" onclick="toggleContainer('container3')">Allgmeine Risikofaktoren</button> <br>
-        <div class="container" id="container3" data-group="3">
+        <div class="container" id="container3" data-group="3" style="display: none;">
             <input type="checkbox" data-points="1.2" > Mutter oder Vater mit Hüftbruch <br>
             <input type="checkbox" data-points="1.9" > Erheblicher Alkoholkonsum (ab 50 g/Tag)<br>
             <input type="checkbox" data-points="1.5" > Rauchen (aktuell >10 Zigaretten/Tag) <br>
@@ -67,7 +75,7 @@
 
         <!-- ? -->
         <button type="button" onclick="toggleContainer('container4')">Body Mass Index BMI</button> <br>
-        <div class="container" id="container4" data-group="4">
+        <div class="container" id="container4" data-group="4" style="display: none;">
             <input type="checkbox" data-points="2.2" > ≤ 15 kg/m2<br>
             <input type="checkbox" data-points="1.7" > ≤15 - 18,5 kg/m2<br>
             <input type="checkbox" data-points="1.3" > 18,5 ≤ 20 kg/m2<br><br>
@@ -75,7 +83,7 @@
 
         <!-- ... Rheumatologie und Glukokortikoide ... -->
         <button type="button" onclick="toggleContainer('container5')">Rheumatologie und Glukokortikoide</button> <br>
-        <div class="container" id="container5" data-group="5">
+        <div class="container" id="container5" data-group="5" style="display: none;">
             <input type="checkbox" data-points="1.6" > Axiale Spondyloarthritis <br>
             <input type="checkbox" data-points="2.7" > Rheumatoide Arthritis<br>
             <input type="checkbox" data-points="1.3" > Prednisolonäquivalent bis 2,5 mg/Tag <br>
@@ -86,7 +94,7 @@
 
         <!-- ... Sturzrisiko assoziierte Risikofaktoren/Geriatrie ... -->
         <button type="button" onclick="toggleContainer('container6')">Sturzrisiko assoziierte Risikofaktoren/Geriatrie </button> <br>
-        <div class="container" id="container6" data-group="6">
+        <div class="container" id="container6" data-group="6" style="display: none;">
             <input type="checkbox" data-points="1.9" > >1 Sturz im letzten Jahr (1-Jahres Risiko RR)  <br>
             <input type="checkbox" data-points="1.6" > 1 Sturz im letzten Jahr<br>
             <input type="checkbox" data-points="1.4" > Chronische Hyponatriämie<br>
@@ -103,7 +111,7 @@
 
         <!-- ... Endokrinologie ... -->
         <button type="button" onclick="toggleContainer('container7')">Endokrinologie</button> <br>
-        <div class="container" id="container7" data-group="7">
+        <div class="container" id="container7" data-group="7" style="display: none;">
             <input type="checkbox" data-points="2.5" > Diabetes mellitus Typ I <br>
             <input type="checkbox" data-points="1.2" > Diabetes mellitus Typ II, seit 5-10 Jahren<br>
             <input type="checkbox" data-points="1.6" > Diabetes mellitus Typ II, seit > 10 Jahre<br>
@@ -115,7 +123,7 @@
 
         <!-- ... Weitere Erkrankungen/Medikationen ... -->
         <button type="button" onclick="toggleContainer('container8')">Weitere Erkrankungen/Medikationen</button> <br>
-        <div class="container" id="container8" data-group="8">
+        <div class="container" id="container8" data-group="8" style="display: none;">
             <input type="checkbox" data-points="1.5" > Chronische Herzinsuffizienz <br>
             <input type="checkbox" data-points="2.0" > MGUS <br>
             <input type="checkbox" data-points="1.6" > Niereninsuffizienz CKD 3a, 3b, 4<br>
@@ -124,7 +132,7 @@
 
         <!-- ... TBS ... -->
         <button type="button" onclick="toggleContainer('container9')">TBS</button> <br>
-        <div class="container" id="container9" data-group="9">
+        <div class="container" id="container9" data-group="9" style="display: none;">
             <input type="checkbox" data-points="1.3" >TBS Z-Score: -1,0 SD <br>
             <input type="checkbox" data-points="1.4" > TBS Z-Score: -1,5 SD <br>
             <input type="checkbox" data-points="1.6" > TBS Z-Score: -2,0 SD<br>
