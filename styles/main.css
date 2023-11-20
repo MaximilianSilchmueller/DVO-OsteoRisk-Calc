@@ -51,6 +51,12 @@ input[type="checkbox"] {
 }
 
 /* Style buttons */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align buttons in the middle */
+}
+
 button {
     background-color: #007bff;
     color: #fff;
@@ -59,6 +65,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 10px; /* Add bottom margin */
+    width: 200px; /* Set a fixed width for the buttons */
 }
 
 /* Style the result paragraph */
