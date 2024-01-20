@@ -1,3 +1,5 @@
+# Nutzungsinformationen: TBD
+
 **Haftungsausschluss für Osteoporose-Rechner**
 
 1. **Einsatzbereich:** Diese Software ist nicht für die Verwendung durch medizinische Fachkräfte konzipiert oder bestimmt. Sie ist nicht dazu bestimmt, medizinische Entscheidungen zu treffen oder professionelle medizinische Beratung, Diagnose, Behandlung oder irgendeinen anderen professionellen medizinischen Zweck zu ersetzen.
@@ -16,7 +18,9 @@
 
 8. **Änderungen des Haftungsausschlusses:** Dieser Haftungsausschluss kann jederzeit ohne Vorankündigung geändert werden. Die aktuelle Version ist stets auf unserer Website einsehbar.
 
-9. **Geltendes Recht:** Dieser Haftungsausschluss unterliegt den Gesetzen des Landes, in dem die Software vertrieben wird, und sollte nicht im Widerspruch zu diesen stehen.
+9. **Geltendes Recht:** Diese Software darf nur im deutschsprachigen Raum (Deutschland, Österreich, Schweiz und andere Regionen, in denen Deutsch eine offizielle Sprache ist) genutzt werden. Die Nutzung der Software unterliegt den Gesetzen des jeweiligen Landes innerhalb dieses Raumes. Jede Nutzung außerhalb dieser Länder ist ausdrücklich untersagt.
+
+10. **Salvatorische Klausel:** Sollten einzelne Bestimmungen dieses Haftungsausschlusses ungültig, illegal oder undurchsetzbar sein, so wird diese Bestimmung im Rahmen der Ungültigkeit, Illegalität oder Undurchsetzbarkeit ausgeschlossen; alle anderen Bestimmungen bleiben in vollem Umfang wirksam.
 
 
 **Disclaimer for Osteoporosis-Calculator**
@@ -37,4 +41,7 @@
 
 8. **Changes to the Disclaimer:** This disclaimer may be changed at any time without prior notice. The most current version can always be viewed on our website.
 
-9. **Governing Law:** This disclaimer is subject to the laws of the country in which the software is distributed and should not be in conflict with these laws.
+9. **Governing Law:** This software may only be used in the German-speaking region (Germany, Austria, Switzerland, and other regions where German is an official language). The use of the software is subject to the laws of the respective country within this region. Any use outside these countries is expressly prohibited.
+
+10. **Severability Clause:** If any provision of this disclaimer is held to be invalid, illegal, or unenforceable, such provision shall be excluded to the extent of such invalidity, illegality, or unenforceability; all other provisions hereof shall remain in full force and effect.
+
