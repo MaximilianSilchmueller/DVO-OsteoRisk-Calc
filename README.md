@@ -2,9 +2,7 @@
 
 **Haftungsausschluss für Osteoporose-Rechner**
 
-1. **Einsatzbereich:** Diese Software ist nicht für die Verwendung durch medizinische Fachkräfte konzipiert oder bestimmt. Sie ist nicht dazu bestimmt, medizinische Entscheidungen zu treffen oder professionelle medizinische Beratung, Diagnose, Behandlung oder irgendeinen anderen professionellen medizinischen Zweck zu ersetzen.
-
-2. **Keine medizinische Beratung:** Diese Software bietet keine medizinische Beratung, Diagnose oder Behandlungsempfehlungen. Sie ist ausschließlich für Informationszwecke bestimmt und kann und soll nicht den Rat oder die Behandlung durch qualifizierte Gesundheitsdienstleister ersetzen.
+1. **Einsatzbereich:** Diese Software ist nicht für die Verwendung durch medizinische Fachkräfte konzipiert oder bestimmt. Sie ist nicht dazu bestimmt, medizinische Entscheidungen zu treffen oder professionelle medizinische Beratung, Diagnose, Behandlung oder irgendeinen anderen professionellen medizinischen Zweck zu ersetzen. Sie ist ausschließlich für Informationszwecke bestimmt und kann und soll nicht den Rat oder die Behandlung durch qualifizierte Gesundheitsdienstleister ersetzen.
 
 3. **Software "wie sie ist":** Diese Software wird auf einem öffentlich zugänglichen GitHub-Repository kostenlos zur Verfügung gestellt und ist "wie sie ist", ohne Gewährleistung jeglicher Art, sei es ausdrücklich oder stillschweigend, einschließlich, aber nicht beschränkt auf die stillschweigenden Gewährleistungen der Marktgängigkeit, Eignung für einen bestimmten Zweck oder Nichtverletzung von Rechten Dritter.
 
@@ -25,9 +23,7 @@
 
 **Disclaimer for Osteoporosis-Calculator**
 
-1. **Scope of Use:** This software is not designed or intended for use by medical professionals. It is not meant to make medical decisions or replace professional medical advice, diagnosis, treatment, or any other professional medical purpose.
-
-2. **No Medical Advice:** This software does not provide medical advice, diagnosis, or treatment recommendations. It is intended solely for informational purposes and is not meant to replace the advice or treatment of qualified healthcare providers.
+1. **Scope of Use:** This software is not designed or intended for use by medical professionals. It is not meant to make medical decisions or replace professional medical advice, diagnosis, treatment, or any other professional medical purpose. It is intended solely for informational purposes and is not meant to replace the advice or treatment of qualified healthcare providers.
 
 3. **Software "As Is":** This software is provided for free on a publicly accessible GitHub repository and is offered "as is," without any kind of warranty, either expressed or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, or non-infringement of third-party rights.
 
