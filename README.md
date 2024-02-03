@@ -1,3 +1,5 @@
+![image](https://github.com/SamEberl/osteoporosis-calculator/assets/47473338/128216ab-2807-44a3-aa5f-04761b88b7ab)
+
 # Nutzungsinformationen: TBD
 
 **Haftungsausschluss für Osteoporose-Rechner**
