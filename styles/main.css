@@ -10,7 +10,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
-    margin-bottom: 140px;
 }
 
 /* Style the header (h1) */
@@ -60,12 +59,13 @@ input[type="checkbox"] {
 }
 
 .disclaimer {
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #f8f8f8;
-    padding: 10px;
+    /*background-color: #f8f8f8;*/
+    background-color: #f0f0f0;
+    padding: 100px;
     text-align: justify;
     font-size: 10px;
     color: #777;
