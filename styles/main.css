@@ -58,6 +58,26 @@ input[type="checkbox"] {
     justify-content: center;
 }
 
+.disclaimer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: justify;
+    font-size: 10px;
+    color: #777;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.disclaimer p {
+    margin: 5px 0;
+    text-align: justify;
+}
+
 button {
     background-color: #007bff;
     color: #fff;
