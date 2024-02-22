@@ -180,8 +180,8 @@ th, td {
             <input type="checkbox" id="option5" data-points="1.7" > Beckenfraktur<br><br>
         </div>
 
-        <!-- ... Allgmeine Risikofaktoren ... -->
-        <button type="button" onclick="toggleContainer('container3')">Allgmeine Risikofaktoren</button> <br>
+        <!-- ... Allgemeine Risikofaktoren ... -->
+        <button type="button" onclick="toggleContainer('container3')">Allgemeine Risikofaktoren</button> <br>
         <div class="container" id="container3" data-group="3" style="display: none;">
             <input type="checkbox" data-points="1.2" > Mutter oder Vater mit Hüftbruch <br>
             <input type="checkbox" data-points="1.9" > Erheblicher Alkoholkonsum (ab 50 g/Tag)<br>
@@ -271,7 +271,7 @@ th, td {
         <p>Ergebnis Gruppe 9: <span id="resultSpan9">0</span> Punkte</p> <br>
         -->
         <p>Ergebnis Gesamt: <span id="resultSpanTotal">0</span> Punkte</p>
-        <p>Therapieempfehlung Level: <span id="therapyLevel">Keine Therapy</span> </p>
+        <p>Therapieempfehlung Level: <span id="therapyLevel">Keine Therapie</span> </p>
 
     </form>
 
@@ -693,7 +693,7 @@ const calculatedThresholds = {
             age85: 0,
             age90: 0,
         },
-        "T -2": {
+        "T -2.0": {
             age50: 2.3,
             age55: 1.7,
             age60: 1.3,
@@ -715,7 +715,7 @@ const calculatedThresholds = {
             age85: 0,
             age90: 0,
         },
-        "T -3": {
+        "T -3.0": {
             age50: 1.1,
             age55: 0,
             age60: 0,
@@ -737,7 +737,7 @@ const calculatedThresholds = {
             age85: 0,
             age90: 0,
         },
-        "T -4": {
+        "T -4.0": {
             age50: 0,
             age55: 0,
             age60: 0,
@@ -1060,7 +1060,7 @@ function update() {
     const resultSpanTotal = document.getElementById("resultSpanTotal").textContent;
     console.log("resultSpanTotal:", resultSpanTotal);
 
-    var recommendedTherapy = "Keine Therapy"
+    var recommendedTherapy = "Keine Therapie"
     var tensorValue = calculatedThresholds[userGender]["firstTherapy"][userBMD][closestAge];
     console.log("Tensor Value 1:", tensorValue);
     if (resultSpanTotal > tensorValue) {
